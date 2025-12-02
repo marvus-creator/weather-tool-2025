@@ -1,0 +1,1 @@
+const getWeather = (city) => { const temps = [22, 25, 19, 30, 28]; const randomTemp = temps[Math.floor(Math.random() * temps.length)]; console.log(`The weather in ${city} is currently ${randomTemp}°C.`); }; getWeather("New York");
